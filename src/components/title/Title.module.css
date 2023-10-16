@@ -1,0 +1,47 @@
+.wrapper {
+    padding-top: 60px;
+    font-family: Roboto-Regular;
+}
+
+
+.header{
+    font-size: 55px;
+    font-family: Roboto-Bold;
+}
+
+
+.text{
+    padding-top: 24px;
+    width: 400px;
+
+}
+
+
+.list{
+    margin-top: 30px;
+    list-style-image: url('../../assets/images/icon-list.svg');
+    padding: 0 15px;
+}
+
+.list li {
+    margin: 15px;
+
+}
+
+
+@media screen  and (max-width: 375px){
+
+    .wrapper{
+        padding-top: 30px;
+    }
+
+    .header{
+        font-size: 40px;
+    }
+
+    .text{
+        width: 300px;
+        line-height: 1.6em;
+        padding-top: 20px;
+    }
+}

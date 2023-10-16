@@ -1,0 +1,86 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+    font-family: Roboto-Regular;
+    
+}
+
+.titleWrapper{
+    display: flex;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: Roboto-Bold;
+    font-size: 13px;
+}
+
+.validTitle{
+    font-family: Roboto-Bold;
+    color: red;
+    font-size: 13px;
+}
+
+.inputText {
+    width: 370px;
+    padding: 15px 20px;
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inputErrorText {
+    color: red;
+    background-color: rgb(247, 184, 184);
+    border-color: red;
+}
+
+.inputErrorText::placeholder{
+    color: red;
+}
+
+
+
+
+.btn{
+    background-color: var(--dark-Slate-Grey);
+    color: var(--white);
+    border-radius: 10px;
+    width: 370px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s, color 0.3s;
+}
+
+.btn:hover{
+    border: none;
+    background-color: var(--Tomato);
+    box-shadow: 0 0 10px var(--Tomato);
+}
+
+
+@media screen and (max-width: 375px) {
+    
+
+    .titleWrapper{
+        margin: 0 auto;
+        padding-right: 0;
+        width: 300px;
+    }
+    .inputText{
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .btn{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    
+}

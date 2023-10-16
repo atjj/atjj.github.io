@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    padding: 25px;
+    margin: 50px auto;
+    background-color: var(--white);
+    width: 990px;
+    color: var(--dark-Slate-Grey);
+}
+
+
+.mobile_img{
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 374px;
+        max-width: 374px;
+        color: var(--dark-Slate-Grey);
+        margin:  auto;
+    }
+    
+    .mobile_img{
+        display: block;
+       
+    }
+}

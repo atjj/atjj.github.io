@@ -1,0 +1,60 @@
+.wrapper {
+    margin: 50px auto;
+    width: 450px;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: var(--white);
+    font-family: Roboto-Regular;
+}
+
+.header{
+    margin-top: 20px;
+    font-family: Roboto-Bold;
+    line-height: 1.1em;
+    font-size: 46px;
+    width: 250px;
+    
+}
+
+.text{
+    margin: 30px auto;
+    line-height: 1.5em;
+}
+
+.text span {
+    font-weight: bold;
+}
+
+
+.btn{
+    background-color: var(--dark-Slate-Grey);
+    color: var(--white);
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:active{
+    border: none;
+    background-color: var(--Tomato);
+    box-shadow: 0 0 10px var(--Tomato)
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .wrapper{
+        padding: 25px 16px 10px 16px;
+        width: 340px;
+    }
+
+
+    .btn{
+
+        width: 300px;
+    }
+
+    
+}
